@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Local Weather</title>
+    <link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/weather-icons/2.0.10/css/weather-icons.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="contain">
+        <div id="weather" class="w-card">
+            <div class="w-weather">{{weather}}</div>
+            <div class="w-city">{{city}}</div>
+            <div class="w-now-temp">{{temp}}</div>
+            <div class="w-info">
+                <div class="w-item" v-for="item in future">
+                    <div class="w-day">{{item.week}}</div>
+                    <div class="w-temp">{{item.temperature}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/vue/2.0.3/vue.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

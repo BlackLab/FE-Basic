@@ -1,0 +1,83 @@
+body {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lucida Console', Monaco, monospace;
+    width: 100%;
+    min-height: 100%;
+}
+
+p {
+    letter-spacing: 0;
+    margin: 0 0 16px;
+}
+
+.background {
+    position: absolute;
+    background-image: url("https://obsov0bhj.qnssl.com/1475305360895_eaa3a9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.7);
+    z-index: -1;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.quote {
+    visibility: hidden;
+    color: #FFF;
+    width: 55%;
+    padding-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    line-height: 1em;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑, Arial, sans-serif
+}
+
+.quote-text {
+    text-align: center;
+    width: 90%;
+    margin-top: -40px
+}
+
+.quote-from {
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑, Arial, sans-serif
+}
+
+#quote-tweet {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+#quote-tweet i{
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+}
+
+#new-quote {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    font-size: 1.5em;
+    color: #fff
+}
+
+.e-hidden {
+    visibility: hidden;
+}
+
+.e-visible {
+    visibility: visible;
+}

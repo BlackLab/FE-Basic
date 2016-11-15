@@ -1,0 +1,114 @@
+body, div, button, h1, h2, h3, h4 {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.title {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.contain {
+    max-width: 550px;
+    height: 550px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.clock {
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    border-radius: 50%;
+    top: 80px;
+    position: relative;
+}
+
+.left, .right {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pie_left, .pie_right {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    border-radius: 50%;
+    top: 0px;left: 0px;
+    background: #66ccff;
+}
+
+.pie_left, .left {
+    clip: rect(0, 125px, auto, 0);
+}
+
+.pie_right, .right {
+    clip: rect(0, auto, auto, 125px);
+}
+
+.mask {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 200px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.info {
+    display: inline-block;
+    max-width: 300px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.info label {
+    font-size: 1.8em;
+}
+
+.info>div:nth-child(1)  {
+    text-align: center;
+    font-size: 2.2em;
+}
+
+.info>div:nth-child(2) {
+    margin-top: 10px;
+}
+
+.work {
+    bottom: 20px;
+    left: 0px;
+}
+
+.break {
+    bottom: 20px;
+    right: 0px;
+}
+
+
+.btn {
+    border: none;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn > i {
+    font-size: 2.5em;
+}

@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("https://obsov0bhj.qnssl.com/1475305360895_eaa3a9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contain {
+    width: 300px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w-card {
+    position: relative;
+    width: 300px;
+    height: 450px;
+    border-radius: 8px;
+    background-image: url("https://obsov0bhj.qnssl.com/Sun.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Brandon", Helvetica, sans-serif;
+}
+
+.w-weather {
+    position: relative;
+    text-align: center;
+    top: 70px;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.w-city {
+    position: relative;
+    text-align: center;
+    top: 80px;
+    font-size: .5em;
+    color: #e6e6e6;
+}
+
+.w-now-temp {
+    position: relative;
+    text-align: center;
+    top: 100px;
+    font-size: 4em;
+    color: #fff;
+    font-weight: 700;
+}
+
+.w-info {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: #fff;
+}
+
+.w-item  div{
+    display: inline-block;
+}
+
+.w-info hr {
+    height: 1px;
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+    border-top: 1px solid #eee;
+}
+
+.w-item {
+    position: relative;
+    padding: 15px;
+    font-size: 1em;
+}
+
+.w-day {
+    position: relative;
+}
+
+.w-temp {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.today {
+    color: red;
+}
+
+.tomorrow {
+    color: #b6b6b6;
+}
